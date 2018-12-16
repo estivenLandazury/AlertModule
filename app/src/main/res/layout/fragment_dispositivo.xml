@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".interfaces.Dispositivo">
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:padding="20dip"
+        android:orientation="vertical">
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:textSize="25dp"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asociar Dispositivo"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp"
+        android:textSize="25dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="documento Usuario"
+        android:layout_marginTop="9dp"
+
+        />
+
+    <EditText android:id="@+id/txtUserName"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="Id Usuario"
+        android:background="@drawable/rounded_button"
+        android:inputType="number"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mac Dispositivo"
+            android:layout_marginTop="9dp"
+
+            />
+
+        <EditText android:id="@+id/txtmac"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:hint=""
+            android:background="@drawable/rounded_button"
+            android:inputType="text" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre Dispositivo"
+            android:layout_marginTop="9dp"
+
+            />
+
+        <EditText android:id="@+id/nombreDis"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:hint=""
+            android:background="@drawable/rounded_button"
+            android:inputType="text" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Asociar"/>
+    </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>
